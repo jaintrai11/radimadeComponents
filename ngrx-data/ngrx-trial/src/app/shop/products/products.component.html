@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+      <table class="table table-dark table-striped m-3">
+        <thead>
+          <tr>
+            <th scope="col">Product Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Manufacturer</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of allProducts$ | async">
+            <th scope="row">{{item.productId}}</th>
+            <td>{{item.name}}}</td>
+            <td>{{item.manufacturer}}</td>
+            <td>{{item.description}}</td>
+            <td>{{item.price}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

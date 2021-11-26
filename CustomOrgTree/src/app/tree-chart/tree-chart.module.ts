@@ -13,7 +13,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
   imports: [
     CommonModule,
     TreeChartRoutingModule,
-    DragDropModule
+    DragDropModule,
   ]
 })
 export class TreeChartModule { }

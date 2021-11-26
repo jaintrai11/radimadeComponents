@@ -43,11 +43,12 @@
     flex-direction: row;
     align-items: center;
     padding-left: 68px;
-    margin: 113px 0px;
+    // margin: 113px 0px;
+    margin: 46px 0px;
     p {
         background: #050597;
         color: #fff;
-        padding: 14px 6px;
+        padding: 8px 6px;
         margin: 0px 10px;
         width: 180px;
         text-align: center;
@@ -177,7 +178,6 @@ p:hover, .sub-driver:hover, .useCaseContainer:hover, .improvements:hover, .secto
 }
 
 .useCase {
-    background: aqua;
     padding: 10px 10px;
     margin: 0px 1px;
     width: 180px;

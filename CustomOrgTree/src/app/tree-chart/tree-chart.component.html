@@ -16,34 +16,28 @@
     </div>
   
   
-    <div class="driver-container" #driverContainer>
-      <div class="driver1" *ngFor="let allData of filteredData; let i = index">
+    <div class="driver-container" #driverContainer style="
+    zoom: 75%;
+">
+      <div class="driver1" *ngFor="let allData of filteredData; index as i; trackBy: trackByItems">
+        <div class="line"></div>
         <p>{{allData.driverName}}
   
-          <span class="arrow left" (click)="onClickPlus($event)">
-          </span>
+          <!-- <span class="arrow left" (click)="onClickPlus($event)">
+          </span> -->
         </p>
   
         <ng-container *ngIf="allData.subSector.length > 1">
           <div class="sub-driver-container">
-            <div class="driversContainer" *ngFor="let drivers of allData.subSector">
+            <div class="driversContainer" *ngFor="let drivers of allData.subSector; index as i; trackBy: trackByItems">
               <div class="sub-driver">
                 {{drivers.title}}
                 <div class="arrow left" (click)="onClickPlus($event)">
                 </div>
               </div>
               <div class="useCaseContainer">
-                <div class="useCase">
-                  Automate registration process to enhance patient experience
-                  Monitor and manage health of high-risk patients Automate registration process to enhance patient
-                  experience
-                  Monitor and manage health of high-risk patients
-                </div>
-                <div class="useCase">
-                  Automate registration process to enhance patient experience
-                  Monitor and manage health of high-risk patients
-                  Enhance pricing decisions using Big Data Analytics
-  
+                <div class="useCase" [ngClass]="{'yellow': i === 2}" *ngFor="let useCaseName of allData.usecaseDescription; index as i; trackBy: trackByItems">
+                  {{useCaseName}}
                 </div>
   
               </div>
@@ -64,15 +58,10 @@
         </ng-container>
   
         <div class="useCaseContainer" *ngIf="allData.subSector.length === 1">
-          <div class="useCase">
-            {{allData.usecaseDescription}}
+          <div class="useCase" *ngFor="let useCaseName of allData.usecaseDescription">
+            {{useCaseName}}
           </div>
-          <div class="useCase">
-            Automate registration process to enhance patient experience
-            Monitor and manage health of high-risk patients
-            Enhance pricing decisions using Big Data Analytics
-  
-          </div>
+          
   
         </div>
   
@@ -81,76 +70,5 @@
         </div>
       </div>
   
-      <!-- <div class="driver1">
-        <p>Overhead Cost2
-        </p>
-        <div class="sub-driver">
-          sub Driver 2
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-  
-        <div class="useCase improvements">
-          $261– 353M
-        </div>
-      </div>
-  
-      <div class="driver1">
-        <p>Other Operating Expense3
-        </p>
-        <div class="sub-driver">
-          sub Driver 3
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-  
-        <div class="useCase improvements">
-          $261– 353M
-        </div>
-      </div>
-  
-  
-      <div class="driver1">
-        <p>Lorum Ipsum oreman Ipsum oreman</p>
-        <div class="sub-driver">
-          sub Driver 4
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-        <div class="useCase">
-          Automate registration process to enhance patient experience
-          Monitor and manage health of high-risk patients
-          Enhance pricing decisions using Big Data Analytics
-  
-        </div>
-  
-        <div class="useCase improvements">
-          $261– 353M
-        </div>
-      </div> -->
     </div>
   </div>

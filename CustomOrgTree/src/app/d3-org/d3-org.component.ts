@@ -18,6 +18,40 @@ export class D3OrgComponent implements OnInit {
           cssClass: 'ngx-org-ceo',
           image: '',
           title: '',
+          childs: [
+            {
+              name: 'BP has implemented sensors to get pr',
+              cssClass: 'ngx-org-head',
+              image: '',
+              title: '',
+              childs: [
+                {
+                  name: ["BP has implemented sensors to get usecase-box",  
+                  "usecase-box usecase-box pr BP has implemented sensors",
+                   "to get pr BP has implemented sensors to get pr BP has implemented sensors to get pr"],
+                  cssClass: 'ngx-org-head usecase-box',
+                  image: '',
+                  title: '',
+                  childs: [
+                    {
+                      name: '20%',
+                      cssClass: 'ngx-org-head range-box',
+                      image: '',
+                      title: '',
+                      childs: []
+                    }
+                  ]
+               }
+              ]
+            },
+            {
+              name: 'BP has implemented sensors to get pr d sensors tov d sensor',
+              cssClass: 'ngx-org-vp',
+              image: '',
+              title: '',
+              childs: []
+            },
+          ]
         },
         {
           name: 'Upstream2',

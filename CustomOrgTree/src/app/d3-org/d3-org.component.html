@@ -1,5 +1,16 @@
-
-<ngx-org-chart [nodes]="nodes"
- direction="horizontal" 
- (itemClick)="test($event)">
-</ngx-org-chart>
+<div>
+    <div class="org-chart-heading">
+        <div>Drivers</div>
+        <div>Sub Drivers</div>
+        <div>Use Case Library Suggestions</div>
+        <div>Potential Improvement (% range)</div>
+    </div>
+    <div style="
+    padding: 12px 100px;
+">
+        <ngx-org-chart [nodes]="nodes"
+        direction="horizontal" 
+        (itemClick)="test($event)">
+       </ngx-org-chart>
+    </div>
+</div>

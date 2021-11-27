@@ -16,25 +16,37 @@ export class TreeChartComponent implements AfterViewInit {
           title: 'Upstream1', 
           useCaseId: 12, 
           usecaseDescription:
-        'BP has implemented sensors to get pr d sensors tov d sensors to d sensors to d sensors to d sensors to d sensors tod sensors to'
+        ['BP has implemented sensors to get pr',
+        'd sensors tov d sensors to d sensors to',
+        'd sensors to d sensors to d sensors tod sensors to'
+        ]
         },
         {
           title: 'Upstream2', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream4', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
       ],
       driverName: 'Other Operating Expense3',
@@ -42,7 +54,10 @@ export class TreeChartComponent implements AfterViewInit {
         'Optimize predictive maintenance of equipment in well operations using Sensors',
       usecaseCategory: 'Condition Monitoring',
       usecaseDescription:
-        'BP has implemented sensors to get predictions on maintenance requirements of its equipment, the data collected through sensors is analysed by a machine-learning algorithm to provide recommendations to the site inspection team for repair of equipment, leading to lesser down-time of equipment',
+      ['BP has implemented sensors to get pr',
+      'd sensors tov d sensors to d sensors to',
+      'd sensors to d sensors to d sensors tod sensors to'
+      ],
       valueStage: 'Source & Make',
     },
 
@@ -55,19 +70,28 @@ export class TreeChartComponent implements AfterViewInit {
           title: 'Upstream1', 
           useCaseId: 12, 
           usecaseDescription:
-        'BP has implemented sensors to get pr d sensors tov d sensors to d sensors to d sensors to d sensors to d sensors tod sensors to'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream2', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
       ],
       driverName: 'Other Operating Expense1',
@@ -75,7 +99,10 @@ export class TreeChartComponent implements AfterViewInit {
         'Optimize predictive maintenance of equipment in well operations using Sensors',
       usecaseCategory: 'Condition Monitoring',
       usecaseDescription:
-        'BP has implemented sensors to get predictions on maintenance requirements of its equipment, the data collected through sensors is analysed by a machine-learning algorithm to provide recommendations to the site inspection team for repair of equipment, leading to lesser down-time of equipment',
+      ['BP has implemented sensors to get pr',
+      'd sensors tov d sensors to d sensors to',
+      'd sensors to d sensors to d sensors tod sensors to'
+      ],
       valueStage: 'Source & Make',
     },
 
@@ -88,19 +115,28 @@ export class TreeChartComponent implements AfterViewInit {
           title: 'Upstream1 AMM', 
           useCaseId: 12, 
           usecaseDescription:
-        'BP has implemented sensors to get pr d sensors tov d sensors to d sensors to d sensors to d sensors to d sensors tod sensors to'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream2', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
       ],
       driverName: 'Eadra trunm wer',
@@ -108,7 +144,10 @@ export class TreeChartComponent implements AfterViewInit {
         'Optimize predictive maintenance of equipment in well operations using Sensors',
       usecaseCategory: 'Condition Monitoring',
       usecaseDescription:
-        'BP has implemented sensors to get predictions on maintenance requirements of its equipment, the data collected through sensors is analysed by a machine-learning algorithm to provide recommendations to the site inspection team for repair of equipment, leading to lesser down-time of equipment',
+      ['BP has implemented sensors to get pr',
+      'd sensors tov d sensors to d sensors to',
+      'd sensors to d sensors to d sensors tod sensors to'
+      ],
       valueStage: 'Source & Make',
     },
 
@@ -121,55 +160,82 @@ export class TreeChartComponent implements AfterViewInit {
           title: 'Upstream1 AMM ererer213', 
           useCaseId: 12, 
           usecaseDescription:
-        'BP has implemented sensors to get pr d sensors tov d sensors to d sensors to d sensors to d sensors to d sensors tod sensors to'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream2', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
         {
           title: 'Upstream3', 
           useCaseId: 1, 
           usecaseDescription:
-        'BP has implemented sensors to get pr'
+          ['BP has implemented sensors to get pr',
+          'd sensors tov d sensors to d sensors to',
+          'd sensors to d sensors to d sensors tod sensors to'
+          ]
         },
       ],
       driverName: 'Eadra trunm wer 3244 sdfsd',
@@ -177,8 +243,10 @@ export class TreeChartComponent implements AfterViewInit {
         'Optimize predictive maintenance of equipment in well operations using Sensors',
       usecaseCategory: 'Condition Monitoring',
       usecaseDescription:
-        'BP has implemented sensors to get predictions on maintenance requirements of its equipment, the data collected through sensors is analysed by a machine-learning algorithm to provide recommendations to the site inspection team for repair of equipment, leading to lesser down-time of equipment',
-      valueStage: 'Source & Make',
+      ['BP has implemented sensors to get pr',
+      'd sensors tov d sensors to d sensors to',
+      'd sensors to d sensors to d sensors tod sensors to'
+      ]
     },
   ];
   title = 'testing';
@@ -194,14 +262,18 @@ export class TreeChartComponent implements AfterViewInit {
     console.log(htmlEl);
   }
 
+  trackByItems(index: number, item: any): number { 
+    return item.id; 
+  }
+
   loadData(event: any) {
     this.sectorName = event.target.value;
     this.filteredData = this.jsonData.filter((value: any) => value.sector.toLowerCase() === event.target.value.toLowerCase());
     console.log(this.filteredData);
 
-    setTimeout(()=> {
-      this.collapseAllDriverBox();
-    }, 1000);
+    // setTimeout(()=> {
+    //   this.collapseAllDriverBox();
+    // }, 1000);
     
   }
 

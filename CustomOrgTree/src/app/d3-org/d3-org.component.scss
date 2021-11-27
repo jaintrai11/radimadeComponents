@@ -1,0 +1,21 @@
+.org-chart-heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    padding: 0px 69px;
+}
+
+::ng-deep .ngx-org-connector-horizontal {
+    width: 4em !important;
+}
+
+::ng-deep .ngx-org-box {
+    max-width: 200px;
+}
+
+::ng-deep .usecase-box {
+    max-height: 200px;
+    overflow: auto;
+}
+
